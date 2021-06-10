@@ -4,11 +4,15 @@ body {
     background-color: #14131a;
     padding-top: 40px;
     margin: 0;
+    background-image: url('./../assets/img/background.png');
 }
 
 .container {
     max-width: 1140px;
     margin: 0 auto;
+    background-image: url('./../assets/img/blood.png ');
+    background-repeat: no-repeat;
+    background-position: top right;
 }
 
 .header {
@@ -53,9 +57,50 @@ body {
 }
 
 .movie-description {
-    margin-bottom: 70px;
+    margin: 0 0 70px 0;
     color: rgba(255, 255, 255, 0.8);
     line-height: 22px;
     font-size: 16px;
     max-width: 422px;
+}
+
+.button-group-icon {
+    width: 15px;
+}
+
+.button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button-primary {
+    color: #8d0019;
+    background-color: #fff;
+}
+
+.button-group-icon,
+.button-group-content {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.button-group-content {
+    font-size: 14px;
+}
+
+.button-group-icon {
+    margin-right: 10px;
+}
+
+.button-link {
+    color: #fff;
+}
+
+.venom-head {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
