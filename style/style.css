@@ -1,0 +1,61 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background-color: #14131a;
+    padding-top: 40px;
+    margin: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.logo-link {
+    width: 46px;
+    height: 71px;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.nav-menu-item {
+    margin-right: 30px;
+}
+
+.nav-menu-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.movie-date {
+    margin-bottom: 38px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 28px;
+    font-size: 24px;
+}
+
+.movie-title {
+    margin-bottom: 40px;
+}
+
+.movie-description {
+    margin-bottom: 70px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 22px;
+    font-size: 16px;
+    max-width: 422px;
+}
