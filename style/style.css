@@ -10,6 +10,9 @@ body {
 .container {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+.bg-blood {
     background-image: url('./../assets/img/blood.png ');
     background-repeat: no-repeat;
     background-position: top right;
@@ -64,8 +67,10 @@ body {
     max-width: 422px;
 }
 
-.button-group-icon {
+.button-group-icon,
+.trailer-play-icon {
     width: 15px;
+    height: 15px;
 }
 
 .button {
@@ -103,4 +108,112 @@ body {
     position: absolute;
     top: 0;
     right: 0;
+}
+
+
+/* ____about_____ */
+
+.about {
+    display: flex;
+}
+
+.about-col {
+    flex-basis: 50%;
+}
+
+.column-2 {
+    -webkit-column-count: 2;
+    -moz-column-count: 1;
+    column-count: 2;
+    -webkit-column-gap: 2;
+    -moz-column-gap: 1;
+    column-gap: 50px;
+    max-width: 320px;
+}
+
+.creators-container {
+    display: flex;
+}
+
+.about-cast {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.about-description {
+    margin: 0 0 30px 0;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 22px;
+    font-size: 16px;
+    max-width: 422px;
+}
+
+.about-poster {
+    width: 362px;
+    height: 543px;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.cast-col,
+.creators-col {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cast-item,
+.creators-item {
+    line-height: 1.5;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0 0 20px 0;
+}
+
+.about-subtitle {
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0 0 15px 0;
+}
+
+.creators-subtitle {
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0 0 5px 0;
+}
+
+.creators-block {
+    margin: 0 0 20px 0;
+}
+
+.about-trailer {
+    width: 356px;
+    height: 205px;
+    background: url('./../assets/img/trailer-screen.jpg') no-repeat center / 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trailer-play-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.trailer-play-icon {
+    transform: translate(10%, 10%);
 }
