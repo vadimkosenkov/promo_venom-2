@@ -4,7 +4,8 @@ body {
     background-color: #14131a;
     padding-top: 40px;
     margin: 0;
-    background-image: url('./../assets/img/background.png');
+    background: url('./../assets/img/background.png') no-repeat fixed;
+    background-size: cover;
 }
 
 .container {
@@ -12,16 +13,7 @@ body {
     margin: 0 auto;
 }
 
-
-/* img {
-    min-width: 100%;
-} */
-
 .bg-blood {
-    /* background-image: url('./../assets/img/blood.png ');
-    background-repeat: no-repeat; */
-    /* background-position: top right;
-    background-size: 70%; */
     position: absolute;
     top: 15%;
     right: 0;
@@ -167,6 +159,16 @@ body {
     -moz-column-gap: 1;
     column-gap: 50px;
     max-width: 320px;
+}
+
+.column-2_ {
+    -webkit-column-count: 2;
+    -moz-column-count: 1;
+    column-count: 2;
+    -webkit-column-gap: 2;
+    -moz-column-gap: 1;
+    column-gap: 50px;
+    max-width: 400px;
 }
 
 .creators {
@@ -409,10 +411,24 @@ body {
     width: 16px;
     height: 11px;
     display: block;
-    overflow: hidden;
-    background-position: -34px -36px;
+    margin: 0 25px 0 0;
+}
+
+table {
+    border-spacing: 15px 15px;
+}
+
+tr {
+    vertical-align: baseline;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+td {
+    padding: 0;
+    width: 200px;
+    margin-bottom: 20px;
 }
 
 .flag0 {
-    background-position: -34px -36px;
+    background-position: -17px 0;
 }
